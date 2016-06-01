@@ -1,0 +1,10 @@
+{ "shipment":123, "origin":"SAVI", "destination":"DCA", "pallets":70, "value":54171 }
+{ "shipment":125, "origin":"SAVI", "destination":"IAD", "pallets":33, "value":64432 }
+{ "shipment":130, "origin":"IAD", "destination":"SAVI", "pallets":68, "value":28564 }
+{ "shipment":141, "origin":"DCA", "destination":"BWI", "pallets":20, "value":82133 }
+{ "shipment":149, "origin":"DCA", "destination":"SAVI", "pallets":9, "value":64243 }
+{ "shipment":153, "origin":"BWI", "destination":"SAVI", "pallets":100, "value":84057 }
+{ "shipment":154, "origin":"SAVI", "destination":"DCA", "pallets":1, "value":93095 }
+{ "shipment":160, "origin":"SAVI", "destination":"BWI", "pallets":68, "value":89950 }
+{ "shipment":162, "origin":"DCA", "destination":"IAD", "pallets":56, "value":99620 }
+{ "shipment":165, "origin":"DCA", "destination":"SAVI", "pallets":17, "value":61947 }
