@@ -1,0 +1,17 @@
+shipper,carrier,shipmentId,hasGeo,method,lat,lng,eventType,source,fromPoi,toPoi,reason,operatorEst,asOfTs,xmitTs,notes
+TESTCO,LAIR,Test414,NO,,,,PickUpLocationDeparture,operator,SAVI,DCA,AFAF,,2/15/16 12:00,2/15/16 12:11,At Savi. Programmed X3. No geolocation
+TESTCO,LAIR,Test414,YES,gps,38.8217662,-77.045703,GeolocationUpdate,device,SAVI,DCA,X6NS,,2/15/16 12:30,2/15/16 12:41,Slaters Ln and GW Pkwy. Triggers OriginDeparture
+TESTCO,LAIR,Test414,YES,gps,38.8082552,-77.0520908,GeolocationUpdate,device,DCA,SAVI,X6NS,,2/15/16 14:30,2/15/16 14:41,Rte 1 and Queen. Moving. Appears we are going backward as we never detected DCA events
+TESTCO,LAIR,Test414,YES,programmed,38.804421,-77.092223,DeliveryLocationArrival,operator,DCA,SAVI,X1NS,,2/15/16 15:00,2/15/16 15:11,"At Savi. Has geolocation, triggers ShippingPointArrival--but at SAVI (as we have geolocation). Also triggers MissedShippingPointMilestone event (for DCA)"
+TESTCO,LAIR,Test414,NO,,,,DeliveryLocationArrival,operator,SAVI,DCA,X1NS,,2/15/16 13:00,2/15/16 15:12,OOO (DELAYED). At DCA. No geolocation. Increments ReportedShippingPoint. Now we think we are at IAD. (Too bad X1 did not have location)
+TESTCO,LAIR,Test414,NO,,,,DepartedDeliveryLocation,operator,SAVI,DCA,CDNS,,2/15/16 14:00,2/15/16 15:13,(DELAYED OOO) Increases departure count
+TESTCO,LAIR,Test414,YES,programmed,38.804421,-77.092223,DepartedDeliveryLocation,operator,DCA,SAVI,CDNS,,2/15/16 15:30,2/15/16 15:41,"Increases departure count (again). Triggers ShippingPointDeparture as we think we left IAD, not Savi"
+TESTCO,LAIR,Test414,YES,gps,38.7925622,-77.182921,GeolocationUpdate,device,SAVI,IAD,X6NS,,2/15/16 16:00,2/15/16 16:11,I-495. ETA is very off as we think we are going from IAD-SAVI and the wrong direction
+TESTCO,LAIR,Test414,YES,gps,38.9345572,-77.240811,GeolocationUpdate,device,SAVI,IAD,X6NS,,2/15/16 16:30,2/15/16 16:41,At Toll Plaza. Movement. ETA gets worse
+TESTCO,LAIR,Test414,YES,programmed,38.9529212,-77.458803,DeliveryLocationArrival,operator,SAVI,IAD,X1NS,,2/15/16 17:00,2/15/16 17:11,At IAD - programmed with geolocaiton. We think WERE already at IAD so no GIS event
+TESTCO,LAIR,Test414,YES,gps,38.9536792,-77.450064,GeolocationUpdate,device,SAVI,IAD,X6NS,,2/15/16 17:30,2/15/16 17:41,Appears as movement inside of IAD fence. At least no ETA
+TESTCO,LAIR,Test414,YES,programmed,38.9529212,-77.458803,DepartedDeliveryLocation,operator,SAVI,IAD,CDNS,,2/15/16 18:00,2/15/16 18:11,Programmed location appeas as movement. Increases departure count. ETA is way off
+TESTCO,LAIR,Test414,YES,gps,38.9530042,-77.369625,GeolocationUpdate,device,IAD,SAVI,X6NS,,2/15/16 18:30,2/15/16 18:41,Toll Road by Reston. We think we departed IAD long ago so the ETA just get's worse
+TESTCO,LAIR,Test414,YES,gps,38.9318262,-77.217287,GeolocationUpdate,device,IAD,SAVI,X6NS,,2/15/16 19:00,2/15/16 19:11,Toll Road to I-495. ETA even worse (likely we have ShipmentEtaLateAlerts by now)
+TESTCO,LAIR,Test414,YES,gps,38.8043782,-77.113624,GeolocationUpdate,device,IAD,SAVI,X6NS,,2/15/16 19:30,2/15/16 19:41,Eisenhower Connector. Even worse ETA
+TESTCO,LAIR,Test414,YES,programmed,38.804421,-77.092223,DeliveryLocationArrival,operator,IAD,SAVI,X1NS,,2/15/16 20:00,2/15/16 20:11,"At Savi. Has geolocation, triggers DestinationArrival. Finally ETA madness stops"

@@ -1,0 +1,6 @@
+erpSystemId,shipmentId,numberOfLegs,legNum,fromCode,toCode,deliveryIds,plannedStartTs,plannedEndTs,goodsIssuedTs,proofOfDeliveryTs,carrier,mode,vesselId
+MySAP,Test403,4,,SAVI,SAVI,,,2/15/16 17:30,2/15/16 11:00,2/15/16 17:30,,,
+,,,1,SAVI,DCA,Package01,2/15/16 12:00,2/15/16 13:00,,,LAIR,truck,JH4TB2H26CC000400
+,,,2,DCA,SAVI,,2/15/16 13:15,2/15/16 14:00,,,LAIR,truck,JH4TB2H26CC000400
+,,,3,SAVI,IAD,"Package02, Package03",2/15/16 14:15,2/15/16 15:30,,,LAIR,truck,JH4TB2H26CC000400
+,,,4,IAD,SAVI,,2/15/16 16:00,2/15/16 17:30,,,LAIR,truck,JH4TB2H26CC000400

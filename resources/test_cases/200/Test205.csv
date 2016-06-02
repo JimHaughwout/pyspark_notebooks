@@ -1,0 +1,26 @@
+shipper,carrier,shipmentId,hasGeo,method,lat,lng,eventType,source,fromPoi,toPoi,reason,operatorEst,asOfTs,xmitTs,notes
+TESTCO,LAIR,Test205,NO,,,,ShipmentDeliveryEstimate,operator,SAVI,BWI,AGAF,2/15/16 15:30,2/15/16 9:00,2/15/16 9:03,Isses AG estimate before leaving
+TESTCO,LAIR,Test205,YES,programmed,38.804421,-77.092223,PickUpLocationDeparture,operator,SAVI,DCA,X3AF,,2/15/16 12:00,2/15/16 12:07,Inside SAVI geofence. Driver issues X3
+TESTCO,LAIR,Test205,YES,gps,38.802377,-77.079176,GeolocationUpdate,device,SAVI,DCA,X6NS,,2/15/16 12:10,2/15/16 12:17,On Eisenhower. Should be OriginDeparture
+TESTCO,LAIR,Test205,YES,gps,38.8082552,-77.0520908,GeolocationUpdate,device,SAVI,DCA,X6NS,,2/15/16 12:20,2/15/16 12:27,Rte 1 and Queen. Moving
+TESTCO,LAIR,Test205,YES,gps,38.8267252,-77.0523107,GeolocationUpdate,device,SAVI,DCA,X6NS,,2/15/16 12:30,2/15/16 12:37,Rte 1 and Curtis Moving
+TESTCO,LAIR,Test205,YES,gps,38.8405982,-77.0544567,GeolocationUpdate,device,SAVI,DCA,X6NS,,2/15/16 12:40,2/15/16 12:47,Rte 1 and Four Mile Run
+TESTCO,LAIR,Test205,YES,programmed,38.8503912,-77.0545427,DeliveryLocationArrival,operator,SAVI,DCA,X1NS,,2/15/16 12:50,2/15/16 12:57,Getting Off at Crystal City - Driver signals X1NS
+TESTCO,LAIR,Test205,YES,gps,38.8550701,-77.046259,GeolocationUpdate,device,SAVI,DCA,X6NS,,2/15/16 13:00,2/15/16 13:07,Waiting at Cell Phone Lot At DCA - First
+TESTCO,LAIR,Test205,YES,gps,38.8550701,-77.046259,GeolocationUpdate,device,SAVI,DCA,X6NS,,2/15/16 13:10,2/15/16 13:17,Waiting at Cell Phone Lot At DCA - Stationary in ShippingPoint
+TESTCO,LAIR,Test205,NO,,,,ShipmentDeliveryRevision,operator,SAVI,BWI,SDAF,2/15/16 16:00,2/15/16 13:12,2/15/16 13:19,Issues delay
+TESTCO,LAIR,Test205,YES,gps,38.8550701,-77.046259,GeolocationUpdate,device,SAVI,DCA,X6NS,,2/15/16 13:20,2/15/16 13:27,Waiting at Cell Phone Lot At DCA - Stationary in ShippingPoint
+TESTCO,LAIR,Test205,YES,gps,38.8550701,-77.046259,GeolocationUpdate,device,SAVI,DCA,X6NS,,2/15/16 13:30,2/15/16 13:37,Waiting at Cell Phone Lot At DCA - Last
+TESTCO,LAIR,Test205,YES,gps,38.8494222,-77.0440707,GeolocationUpdate,device,SAVI,DCA,X6NS,,2/15/16 13:40,2/15/16 13:47,At DCA Termnal - Should be ShippingPointArrival
+TESTCO,LAIR,Test205,YES,programmed,38.8565072,-77.0466457,DepartedDeliveryLocation,operator,DCA,BWI,CDNS,,2/15/16 13:50,2/15/16 13:57,DCA Terminals - Still in ShippingPoint
+TESTCO,LAIR,Test205,YES,gps,38.8755022,-77.041986,GeolocationUpdate,device,DCA,BWI,X6NS,,2/15/16 14:00,2/15/16 14:07,Memorial Bridge - Should be ShippingPointDeparture
+TESTCO,LAIR,Test205,YES,gps,38.8823542,-77.01845,GeolocationUpdate,device,DCA,BWI,X6NS,,2/15/16 14:10,2/15/16 14:17,DC By NASA. Moving
+TESTCO,LAIR,Test205,YES,gps,38.8807972,-77.006001,GeolocationUpdate,device,DCA,BWI,X6NS,,2/15/16 14:20,2/15/16 14:27,DC By Garfield Park. Moving
+TESTCO,LAIR,Test205,YES,gps,38.8699552,-76.990058,GeolocationUpdate,device,DCA,BWI,X6NS,,2/15/16 14:30,2/15/16 14:37,Getting on Annacostia Fwy. Moving
+TESTCO,LAIR,Test205,YES,gps,38.9130442,-76.935556,GeolocationUpdate,device,DCA,BWI,X6NS,,2/15/16 14:40,2/15/16 14:47,"BWI Parkway, Left at the Fork. Moving"
+TESTCO,LAIR,Test205,YES,gps,39.0810761,-76.823204,GeolocationUpdate,device,DCA,BWI,X6NS,,2/15/16 14:50,2/15/16 14:57,"By Laurel, MD. Moving"
+TESTCO,LAIR,Test205,YES,gps,39.1037213,-76.7767209,GeolocationUpdate,device,DCA,BWI,X6NS,,2/15/16 15:00,2/15/16 15:07,By Ft. Mead. NSA screws with GPS
+TESTCO,LAIR,Test205,YES,programmed,39.1990391,-76.699607,DeliveryLocationArrival,operator,DCA,BWI,X1NS,,2/15/16 15:10,2/15/16 15:17,Exit to BWI. Driver issues X1
+TESTCO,LAIR,Test205,YES,gps,39.1865331,-76.681411,GeolocationUpdate,device,DCA,BWI,X6NS,,2/15/16 15:20,2/15/16 15:27,In BWI Fence. Should be DestinationArrival
+TESTCO,LAIR,Test205,YES,gps,39.1831151,-76.67433,GeolocationUpdate,device,DCA,BWI,X6NS,,2/15/16 15:30,2/15/16 15:37,Parking at BWI. Movement in Fence.
+TESTCO,LAIR,Test205,YES,programmed,39.1968441,-76.691968,DepartedDeliveryLocation,device,BWI,SAVI,CDNS,,2/15/16 15:40,2/15/16 15:48,Leaving BWI. Driver issues CD

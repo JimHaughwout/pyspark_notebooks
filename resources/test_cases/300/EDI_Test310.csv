@@ -1,0 +1,9 @@
+shipper,carrier,shipmentId,hasGeo,method,lat,lng,eventType,source,fromPoi,toPoi,reason,operatorEst,asOfTs,xmitTs,notes
+TESTCO,LAIR,Test310,YES,programmed,38.9529212,-77.458803,PickUpLocationDeparture,operator,IAD,SAVI,AFAF,,2/15/16 12:00,2/15/16 12:05,At IAD - programmed
+TESTCO,LAIR,Test310,YES,gps,38.9530042,-77.369625,GeolocationUpdate,device,IAD,SAVI,X6NS,,2/15/16 12:30,2/15/16 12:35,Toll Road by Reston. Triggers OriginDeparture
+TESTCO,LAIR,Test310,YES,programmed,38.804421,-77.092223,DeliveryLocationArrival,operator,IAD,SAVI,X1NS,,2/15/16 13:00,2/15/16 13:05,Inside SAVI geofence. Triggers ShippingPointArrival
+TESTCO,LAIR,Test310,YES,gps,38.815867,-77.046763,GeolocationUpdate,device,SAVI,DCA,X6NS,,2/15/16 13:30,2/15/16 13:35,Old Town
+TESTCO,LAIR,Test310,YES,programmed,38.8511872,-77.04294,DeliveryLocationArrival,operator,SAVI,DCA,X1NS,,2/15/16 14:00,2/15/16 14:05,At DCA - programmed. TriggersShippingPointArrival
+TESTCO,LAIR,Test310,YES,gps,38.8787752,-76.966026,GeolocationUpdate,device,DCA,BWI,X6NS,,2/15/16 14:30,2/15/16 14:35,On Annacostia Fwy. Triggers ShippingPointDeparture
+TESTCO,LAIR,Test310,YES,gps,39.0364221,-76.853588,GeolocationUpdate,device,DCA,BWI,X6NS,,2/15/16 15:00,2/15/16 15:05,BWI Pkwy Traffic Jam
+TESTCO,LAIR,Test310,YES,programmed,39.1770361,-76.670489,DeliveryLocationArrival,operator,DCA,BWI,X1NS,,2/15/16 15:30,2/15/16 15:35,At BWI programmed. Triggers DestinationArrival

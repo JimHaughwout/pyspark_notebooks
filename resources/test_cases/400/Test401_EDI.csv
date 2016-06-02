@@ -1,0 +1,13 @@
+shipper,carrier,shipmentId,hasGeo,method,lat,lng,eventType,source,fromPoi,toPoi,reason,operatorEst,asOfTs,xmitTs,notes
+TESTCO,LAIR,Test401,YES,gps,38.804421,-77.092223,GeolocationUpdate,device,SAVI,DCA,,,2/15/16 12:00,2/15/16 12:05,At Savi
+TESTCO,LAIR,Test401,YES,gps,38.8217662,-77.045703,GeolocationUpdate,device,SAVI,DCA,,,2/15/16 12:30,2/15/16 12:35,Slaters Ln and GW Pkwy. Triggers OriginDeparture
+TESTCO,LAIR,Test401,YES,gps,38.8511872,-77.04294,GeolocationUpdate,device,SAVI,DCA,,,2/15/16 13:00,2/15/16 13:05,At DCA. Triggers ShippingPointArrival
+TESTCO,LAIR,Test401,YES,gps,38.8082552,-77.0520908,GeolocationUpdate,device,DCA,SAVI,,,2/15/16 13:30,2/15/16 13:35,Rte 1 and Queen. Moving. Triggers ShippingPointDeparture
+TESTCO,LAIR,Test401,YES,gps,38.804421,-77.092223,GeolocationUpdate,device,DCA,SAVI,,,2/15/16 14:00,2/15/16 14:05,At Savi. Triggers ShippingPointArrival
+TESTCO,LAIR,Test401,YES,gps,38.7925622,-77.182921,GeolocationUpdate,device,SAVI,IAD,,,2/15/16 14:30,2/15/16 14:35,I-495. Triggers ShippingPointDeparture.
+TESTCO,LAIR,Test401,YES,gps,38.9345572,-77.240811,GeolocationUpdate,device,SAVI,IAD,,,2/15/16 15:00,2/15/16 15:05,At Toll Plaza
+TESTCO,LAIR,Test401,YES,gps,38.9529212,-77.458803,GeolocationUpdate,device,SAVI,IAD,,,2/15/16 15:30,2/15/16 15:35,At IAD - programmed. Triggers ShippingPointArrival.
+TESTCO,LAIR,Test401,YES,gps,38.9530042,-77.369625,GeolocationUpdate,device,IAD,SAVI,,,2/15/16 16:00,2/15/16 16:05,Toll Road by Reston. Triggers ShippingPointDeparture
+TESTCO,LAIR,Test401,YES,gps,38.9318262,-77.217287,GeolocationUpdate,device,IAD,SAVI,,,2/15/16 16:30,2/15/16 16:35,Toll Road to I-495
+TESTCO,LAIR,Test401,YES,gps,38.8043782,-77.113624,GeolocationUpdate,device,IAD,SAVI,,,2/15/16 17:00,2/15/16 17:05,Eisenhower Connector. Moving
+TESTCO,LAIR,Test401,YES,gps,38.804421,-77.092223,GeolocationUpdate,device,IAD,SAVI,,,2/15/16 17:30,2/15/16 17:35,At Savi. Triggers DestinationArrival
